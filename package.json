@@ -1,0 +1,13 @@
+{
+  "name": "sidepro-node-mysql-sample",
+  "version": "1.0.0",
+  "description": "Very small Node.js + MySQL sample app for SidePro cloud platform.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
+  }
+} 
