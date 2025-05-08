@@ -4,7 +4,7 @@ const mysql = require('mysql2/promise');
 const app = express();
 
 // Environment variables
-const PORT = process.env.PORT; 8080;
+const PORT = process.env.PORT || 8080;
 const DB_HOST = process.env.DB_HOST;
 const DB_PORT = process.env.DB_PORT || 3306;
 const DB_NAME = process.env.DB_NAME;
